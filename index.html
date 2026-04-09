@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hopenity Video Downloader</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+
+<h1>🎬 Only For Hopenity</h1>
+
+<input type="text" id="videoLink" placeholder="Paste video link here">
+<button onclick="loadVideo()">Load Video</button>
+
+<br><br>
+
+<video id="videoPlayer" controls></video>
+
+<br><br>
+
+<a id="downloadBtn" href="#" download="video.mp4">
+<button>Download Video</button>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

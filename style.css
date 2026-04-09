@@ -1,0 +1,26 @@
+body{
+background:#0a0a0a;
+color:white;
+text-align:center;
+font-family:sans-serif;
+}
+
+input{
+width:90%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+padding:10px 20px;
+border:none;
+background:#00ffcc;
+color:black;
+font-weight:bold;
+margin:5px;
+}
+
+video{
+width:90%;
+margin-top:10px;
+}
